@@ -38,12 +38,14 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+  background-color: #f7e303fb;
   
 }
 
 h1 {
   font-weight: bold;
   font-size: 14rem;
+  color: rgba(20, 1, 1, 0.123)
 }
 
 main {
@@ -53,7 +55,20 @@ main {
   align-items: center;
 }
 
-img {
+.storbanan {
   position: absolute;
-  top: 320px;
+  top: 280px;
+  width: 800px;
+}
+
+.artikkelbanan {
+  width: 200px;
+}
+
+p {
+  font-size: 2rem;
+}
+article {
+  grid-column: auto;
+  color: rgba(11, 0, 0, 0.473)9)
 }
